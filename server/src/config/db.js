@@ -26,7 +26,8 @@ try {
       universe_domain: config.db.universe_domain,
     };
   }
-  console.log(serviceAccountKey);
+  // console.log(serviceAccountKey);
+  console.log("Service Account Key Loaded:", !!serviceAccountKey);
 
   // Imports of db credentials
   // var serviceAccountKey = require(config.db.serviceAccountKey);

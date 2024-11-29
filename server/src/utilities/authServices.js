@@ -7,6 +7,11 @@ const _ = require("lodash");
 
 module.exports = {
   async findUser(email) {
+    if (!db) {
+      throw new Error(
+        "Firestore DB is not initialized. Check your Firebase configuration."
+      );
+    }
     // stores the document query in a var & retrieves
     const usersRef = db.collection("users");
     const snapshot = await usersRef.get();
