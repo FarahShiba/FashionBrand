@@ -43,7 +43,9 @@ try {
     storageBucket: config.db.storageBucket,
   };
 
+  console.log("Firebase App Options:", firebaseAppOptions);
   admin.initializeApp(firebaseAppOptions);
+  console.log("Firebase initialized.");
   // Store core database functions in variable objects
   const db = admin.firestore();
   const bucket = admin.storage().bucket();
