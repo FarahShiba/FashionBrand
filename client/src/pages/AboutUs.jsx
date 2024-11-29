@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import * as styles from "./AboutUs.css";
-import backgroundImages from "../assets/cleo-vermij-wSct4rrBPWc-unsplash.jpg";
+import backgroundImages from "../assets/cleo-vermij-wSct4rrBPWc-unsplash.jpg"; // background images
 
 function AboutUs() {
   return (
