@@ -13,5 +13,9 @@ yarn-error.log*
 # Temporary system files
 .DS_Store
 
+
 # Build output (if applicable)
 dist/
+
+tu-fashions-firebase-adminsdk-53vtk-fd019a5614.json
+
